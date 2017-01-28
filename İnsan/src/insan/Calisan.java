@@ -9,6 +9,9 @@ package insan;
  *
  * @author BAYDIN
  */
-public class Calisan {
-    
+public class Calisan extends İnsan {
+    int maas;
+    void zam(int oran){
+        maas= maas+ maas*oran/100;
+    }
 }

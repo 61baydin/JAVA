@@ -13,17 +13,14 @@ public class İnsan {
     int boy;
     int kilo;
     int yas;
-    int maas;
     void yemek(){
         kilo++;   
     }
-    void zam(int oran){
-        maas= maas+ maas*oran/100;
-    }
+    
    
     public static void main(String[] args) {
      
-       İnsan ali = new İnsan(); 
+       Calisan ali = new Calisan(); 
        ali.boy= 180;
        ali.kilo=80;
        ali.yas=22;
