@@ -13,6 +13,9 @@ public class İnsan {
     int boy;
     int kilo;
     int yas;
+    void yaslan(){
+        yas++;
+    }
     void yemek(){
         kilo++;   
     }
